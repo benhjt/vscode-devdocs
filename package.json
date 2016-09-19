@@ -2,10 +2,21 @@
   "name": "vscode-devdocs",
   "displayName": "vscode-devdocs",
   "description": "Devdocs documentation browser for VSCode editor",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "icon": "devdocs.png",
   "publisher": "benhjt",
   "engines": {
     "vscode": "^1.5.0"
+  },
+  "author": "benhjt",
+  "license": "MIT",
+  "homepage": "https://github.com/benhjt/vscode-devdocs/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benhjt/vscode-devdocs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benhjt/vscode-devdocs/issues"
   },
   "categories": [
     "Other"
