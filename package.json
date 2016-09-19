@@ -1,0 +1,29 @@
+{
+  "name": "vscode-devdocs",
+  "displayName": "vscode-devdocs",
+  "description": "Devdocs documentation browser for VSCode editor",
+  "version": "0.0.1",
+  "publisher": "benhjt",
+  "engines": {
+    "vscode": "^1.5.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.devDocs"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [{
+      "command": "extension.devDocs",
+      "title": "Search dev docs"
+    }]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "vscode": "^0.11.0"
+  }
+}
