@@ -28,7 +28,7 @@
   "contributes": {
     "commands": [{
       "command": "extension.devDocs",
-      "title": "Search dev docs"
+      "title": "Search DevDocs.io"
     }]
   },
   "scripts": {
